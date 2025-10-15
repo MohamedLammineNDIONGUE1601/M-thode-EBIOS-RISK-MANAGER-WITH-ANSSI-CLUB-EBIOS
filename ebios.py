@@ -12,7 +12,11 @@ def init_project(args):
     """Initialize a new EBIOS Risk Manager project"""
     print(f"Initialisation d'un nouveau projet EBIOS: {args.name}")
     print("Création de la structure de projet...")
-    # TODO: Create project structure
+    # TODO: Create project structure with:
+    #   - Project directory
+    #   - Configuration file (config.json)
+    #   - Directories for each workshop (atelier1-5)
+    #   - Template files for risk analysis documentation
 
 
 def workshop1(args):
@@ -56,7 +60,11 @@ def workshop5(args):
 
 
 def list_commands(args):
-    """List all available commands"""
+    """List all available commands
+    
+    Note: This provides a simplified French command list for users,
+    complementing the argparse --help which shows full usage details.
+    """
     print("Commandes disponibles:")
     print("  init        - Initialiser un nouveau projet EBIOS")
     print("  atelier1    - Atelier 1: Cadrage et socle de sécurité")

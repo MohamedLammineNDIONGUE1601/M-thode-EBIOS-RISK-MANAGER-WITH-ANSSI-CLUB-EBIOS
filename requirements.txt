@@ -1,0 +1,3 @@
+# EBIOS Risk Manager dependencies
+# Currently using only Python standard library
+# Add dependencies here as needed
